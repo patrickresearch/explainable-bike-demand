@@ -1,0 +1,14 @@
+{
+  "best_iteration": 727,
+  "test_period": "2012-10-01..2012-12-31",
+  "lightgbm": {
+    "rmse": 62.6,
+    "mae": 39.43,
+    "r2": 0.9036
+  },
+  "baseline_hour_x_workingday": {
+    "rmse": 119.59,
+    "mae": 79.95,
+    "r2": 0.6481
+  }
+}

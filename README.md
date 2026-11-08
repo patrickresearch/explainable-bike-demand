@@ -2,6 +2,10 @@
 
 Hourly bike-sharing demand forecasts with LightGBM, explained prediction by prediction with SHAP.
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://explainable-bike-demand-58qeuvnqszzn3gzr3l5v2l.streamlit.app/)
+
+**[Try the live app](https://explainable-bike-demand-58qeuvnqszzn3gzr3l5v2l.streamlit.app/):** change weather, date and hour, and watch the forecast and its explanation update.
+
 <table>
 <tr>
 <td><img src="reports/figures/beeswarm.png" alt="SHAP beeswarm"></td>
@@ -82,3 +86,7 @@ app/               Streamlit app: adjust weather and time, see forecast and wate
 model/             trained model + test metrics
 reports/figures/   figures used in this README
 ```
+
+## License
+
+MIT
